@@ -1,0 +1,126 @@
+
+var countryCity = [
+
+   {
+
+       "citys":[
+
+            {
+
+               "city_name": "Amsterdam",
+               "latitude": 52.3702157,
+               "longitude": 4.895167899999933
+
+            },
+
+            {
+
+              "city_name": "Amstelveen",
+              "latitude":52.09073739999999,
+              "longitude":5.121420100000023
+
+            }
+
+        ]
+
+   }
+
+]
+
+
+
+
+var mapMarkers = [
+
+  {
+    "district": "ZUID",
+    "addressDescription": "Maarten Luther Kingpark   kabouterhuis Amsteldijk",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Maarten Luther Kingpark   kabouterhuis Amsteldijk, Amsterdam, Netherlands"
+  },
+  {
+    "district": "ZUID",
+    "addressDescription": "Museumplein bij kiosk en fontein",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Museumplein bij kiosk en fontein, Amsterdam, Netherlands"
+  },
+  {
+    "district": "ZUID",
+    "addressDescription": "Museumplein bij skatebaan",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Museumplein bij skatebaan, Amsterdam, Netherlands"
+  },
+  {
+    "district": "ZUID",
+    "addressDescription": "President Kennedyplantsoen  66 Alblasstraat",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "President Kennedyplantsoen  66 / Alblasstraat, Amsterdam, Netherlands"
+  },
+  {
+    "district": "ZUID",
+    "addressDescription": "Sarphatiepark  Sarphatiepark 22",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Sarphatiepark  Sarphatiepark 22, Amsterdam, Netherlands"
+  },
+  {
+    "district": "ZUID",
+    "addressDescription": "Vondelpark  1 ingang cityhouderskade",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Vondelpark  1 ingang cityhouderskade, Amsterdam, Netherlands"
+  },
+
+  {
+    "district": "WATERNET",
+    "addressDescription": "Amstelveenseweg 598 A Sectiepost",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Amstelveenseweg 598 A Sectiepost, Amsterdam, Netherlands"
+  },
+  {
+    "district": "WATERNET",
+    "addressDescription": "Leiduin Trimbaan",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Leiduin Trimbaan, Amsterdam, Netherlands"
+  },
+  {
+    "district": "WATERNET",
+    "addressDescription": "Weesperkarpel ( de kantine)Sectiepost",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "happertje",
+    "FIELD6": "",
+    "info": "Weesperkarpel ( de kantine)Sectiepost, Amsterdam, Netherlands"
+  },
+  {
+    "district": "",
+    "addressDescription": "Drinkpaal FLEVOPARK zit sinds 15-07-2011 achter put",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "type": "special",
+    "FIELD6": "",
+    "info": "Drinkpaal FLEVOPARK zit sinds 15-07-2011 achter put, Amsterdam, Netherlands"
+  }
+]

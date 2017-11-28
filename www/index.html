@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/map.css">
+        <link rel="stylesheet" type="text/css" href="css/mapStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/animations.css">
+        <title>Drink water</title>
+    </head>
+    <body>
+
+    <div class="appHead">
+
+        <div class="messageContainer">
+
+               <div class="messageHead">
+
+                 <div class="closeMessageCont">
+                    <img src="img/close.svg" alt="" id="closer">
+                 </div>
+
+                 <h3 class="title">No point has been founded at the address sought</h3>
+
+               </div>
+               <button id="action">Search in de vicinity</button>
+
+        </div>
+
+        <div class="locationAllow">
+
+            <div class="head">
+
+              <h3>"Find Drink Water" Would Like To Access Your Location</h3>
+              <P>
+                Your current location will be displayed on the
+                 map and used for directions, nearby search results,
+                 and estimated travel times.
+               </P>
+
+            </div>
+
+            <div class="allowButts">
+
+               <button id="dontAllow">Don't allow</button>
+               <button id="allow">Allow</button>
+
+            </div>
+
+        </div>
+
+          <div class="searchLoader">
+            <img src="img/close.svg" alt="" id="loaderCloser">
+            <h3>search launched</h3>
+            <div class="overlay--load overlay--light">
+                <div class="loader__wrap">
+                    <div class="loader__inner loader__inner--small">
+                        <div class="water-splash">
+                            <div>
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+          </div>
+
+
+  </div>
+
+       <div class="core">
+
+         <div id="introTekst" class="intro-wrap">
+
+             <div class="welcomText">
+                 <div class="waterAnim fade-in font-Size">
+                     <h1 class="f">FIND DRINK WATER</h1>
+                 </div>
+             </div>
+
+             <div class="startTour fade-in">
+                 <h1 id="startApp">Tap to find drinkwater</h1>
+         </div>
+
+         </div>
+
+         <div id="Tutorial" class="tutorial">
+
+             <div class="icons-sectie">
+                 <div id="tutorial-1" class="slide-icons">
+                     <div class="icons-slide-1">
+                         <img src="App/FDWLogo.png">
+                     </div>
+
+                     <div class="slide-text">
+                         <h2>Thirsty? How about some nice free water?</h2>
+                     </div>
+                 </div>
+
+                 <div id="tutorial-2" class="slide-icons">
+                     <div class="icons-slide-2">
+                         <img src="App/faucet%20(1).png">
+                     </div>
+
+                     <div class="slide-text">
+                         <h2>Water from tap in the Netherlands is practically healthier than any liquid in the store. So why buy?</h2>
+                     </div>
+                 </div>
+
+                 <div id="tutorial-3" class="slide-icons">
+                     <div class="icons-slide-2 transform-pic">
+                         <img src="App/bottle-of-water.png">
+                     </div>
+
+                     <div class="slide-text">
+                         <h2>500.000 plastic bottles are thrown away on a daily base in The Netherlands. A big part of these are water bottles.</h2>
+                     </div>
+                 </div>
+
+                 <div id="tutorial-4" class="slide-icons">
+                     <div class="icons-slide-1">
+                         <img src="App/water%20(1).png">
+                     </div>
+
+                     <div class="slide-text">
+                         <h2>Drinking water is one of our moest important daily tasks. Find Drink Water will help you find free water in Amsterdam.</h2>
+                     </div>
+                 </div>
+
+             </div>
+
+             <div class="next-buttons">
+
+                     <div class="inner-circle">
+                         <a class="ball" id="slide-1"><figure class="circle"></figure></a>
+                         <a class="ball" id="slide-2"><figure class="circle"></figure></a>
+                         <a class="ball" id="slide-3"><figure class="circle"></figure></a>
+                         <a class="ball" id="slide-4"><figure class="circle"></figure></a>
+                     </div>
+
+                 <div id="volgende" class="om-next next">
+                     <h2 class="next">NEXT</h2>
+                 </div>
+             </div>
+
+         </div>
+
+
+               <div class="mapContainer">
+
+                   <div class="topmenu">
+
+                     <img src="img/menuthree.svg" alt="" class="menuButt" id="bMenu">
+
+                     <div class="searchFilter">
+
+                       <form method="post" class="searchForm">
+
+                           <input type="search" name="" placeholder="Zoek waterpunten" id="searchField">
+
+                           <!--<img src="img/close.svg" alt="" id="closeFilterImg">-->
+
+                        </form>
+
+                        <div class="filters">
+
+                          <input type="checkbox" name="" value="happertje" class="filterBox"><p>Happertje</p>
+                          <input type="checkbox" name="" value="delta tappunt" class="filterBox"><p>Delta tappunt</p>
+                          <!--<input type="checkbox" name="" value="van eeghenfontein" class="filterBox"><p>Van eeghenfontein</p>-->
+
+                        </div>
+
+                     </div>
+
+                     <img src="img/search.svg" alt id="search">
+
+                     <img src="img/filter.svg" alt="" id="filterImg">
+
+                   </div>
+
+
+                   <div class="mapCore">
+
+                         <div id="appCore">
+
+                         </div>
+
+                   </div>
+
+
+                   <div class="menuIcon">
+
+                       <img src="img/gps.svg" alt="" id='myPosition'>
+
+                   </div>
+
+               </div>
+
+
+
+               <div class="menu">
+
+                 <div class="closeDiv"><img src="img/close.svg" alt="" id="closeAppMenu"></div>
+                 <div class="closeDiv"><img src="img/close.svg" alt="" id="closeAppInfo"></div>
+                 <div class="closeDiv"><img src="img/close.svg" alt="" id="closeWaterInfo"></div>
+
+                   <div class="menuItems">
+
+                     <h2 class="aboutApp">About Find Drink Water</h2>
+                     <h2 class="aboutWater">About the water</h2>
+                     <h2 class="tuto">Tutorial</h2>
+
+                   </div>
+
+                   <div class="appInfo">
+
+                      <h1>About Find Drink Water</h1>
+                      <h3>Find Drink Water is an app made</h3>
+
+                   </div>
+
+
+                   <div class="waterInfo">
+
+                       <h1>About the water</h1>
+                       <p>Water from the tap in the Netherlands is practically healthier than any liquid in the store.So why buy?</p>
+
+                   </div>
+
+                   <img src="img/FDWLogo.png" alt="" class="siteLogo">
+
+               </div>
+
+       </div>
+       <div class="searchedResults"></div>
+
+
+    </body>
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+    <!--<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+
+     <!--<script type="text/javascript" src="cordova.js"></script>-->
+     <!--<script type="text/javascript" src="js/index.js"></script>-->
+     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+     <script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+     <script src="js/waterPuntenData.json"></script>
+     <script type="text/javascript" src="js/mapApp.js"></script>
+     <script type="text/javascript" src="js/mapUtils.js"></script>
+     <script type="text/javascript" src="js/domManipulation.js"></script>
+     <script src="App/script.js"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwfl87elX-XGrxaLsOUABmfgnjDYPVyhc &callback=initMap&libraries=places" async defer></script>
+     <script type="text/javascript">
+
+
+        function initMap()
+        {
+
+            callFunctions();
+
+            //getMarkers(mapMarkers);
+
+
+              document.addEventListener('deviceready', function(){
+
+                 callFunctions();
+                   //var count = window.localStorage.getItem('hasRun');
+                   if(count){
+
+                       alert("second time app launch");
+                       $(function(){
+
+                          $("#Tutorial").hide('slow');
+
+                       })
+
+                   }else{
+
+                       // set variable in localstore
+                       window.localStorage.setItem('hasRun',1);
+                       alert("first time app launch");
+                       $(function(){
+
+                           $("#startApp").click(function () {
+
+                               $("#introTekst").fadeOut(700);
+
+                           })
+
+                       })
+
+                   }
+
+              }, false);
+
+
+        }
+
+
+     </script>
+
+</html>

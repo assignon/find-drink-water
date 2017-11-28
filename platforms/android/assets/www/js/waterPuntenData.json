@@ -1,0 +1,1610 @@
+var countryCity = [
+
+   {
+
+       "citys":[
+
+            {
+
+               "city_name": "Amsterdam",
+               "latitude": 52.3702157,
+               "longitude": 4.895167899999933
+
+            },
+
+            {
+
+              "city_name": "Amstelveen",
+              "latitude":52.09073739999999,
+              "longitude":5.121420100000023
+
+            }
+
+        ]
+
+   }
+
+]
+
+
+var mapMarkers = [
+
+  {
+"district": "ZUID",
+"latitude": 52.35122399999999,
+"longitude": 4.894990300000018,
+"addressDescription": "van der helstplein 16",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "van der helstplein 16, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 42.686727,
+"longitude": -73.7777739,
+"addressDescription": "Van Rensselaerstraat 12",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Van Rensselaerstraat 12, Amsterdam"
+},
+
+{
+"district": "",
+"latitude": 52.3923428,
+"longitude": 4.850295200000005,
+"addressDescription": "Transformatorweg 36",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "van eeghenfontein",
+"info": "Transformatorweg 36, Amsterdam"
+},
+
+{
+"district": "WATERNET",
+"latitude": 52.3399399,
+"longitude": 4.917319899999939,
+"addressDescription": "Hoofdkanor Korte Oude kerkedijk 7",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Hoofdkanor Korte Oude kerkedijk 7, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.6221049,
+"longitude": 4.745691299999976,
+"addressDescription": "Willen de Zwijgerlaan 183",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Willen de Zwijgerlaan 183, Amsterdam"
+},
+
+{
+"district": "ZUID",
+"latitude": 52.3539452,
+"longitude": 4.888046700000018,
+"addressDescription": "Hercules Segherstraat 12",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Hercules Segherstraat 12, Amsterdam"
+},
+
+{
+"district": "ZUID",
+"latitude": 40.973262,
+"longitude": -74.08587899999998,
+"addressDescription": "Olympiaplein 71",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Olympiaplein 71, Amsterdam"
+},
+
+{
+"district": "WATERNET",
+"latitude": 52.330859,
+"longitude": 4.566399400000023,
+"addressDescription": "Vogelenzangseduinweg 4",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Vogelenzangseduinweg 4, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.36690919999999,
+"longitude": 4.912575500000003,
+"addressDescription": "Plantage Kerklaan 38",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Plantage Kerklaan 38, Amsterdam"
+},
+
+{
+"district": "AMSTERDAMSE BOS",
+"latitude": 52.3135294,
+"longitude": 4.828791700000011,
+"addressDescription": "Amsterdamse Bos Zonneweide",
+"city": "Amstelveen",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Amsterdamse Bos Zonneweide, Amstelveeb"
+},
+
+{
+"district": "",
+"latitude": 52.35057219999999,
+"longitude": 4.826472899999999,
+"addressDescription": "Plesmanlaan 121",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Plesmanlaan 121, Amsterdam"
+},
+{
+"district": "AMSTERDAMSE BOS",
+"latitude": 52.3135294,
+"longitude": 4.828791700000011,
+"addressDescription": "Amsterdamse Bos Bosrandweg barberqueplaats",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Amsterdamse Bos Bosrandweg barberqueplaats, Amsterdam"
+},
+
+{
+"district": "AMSTERDAMSE BOS",
+"latitude": 52.32012,
+"longitude": 4.827311000000009,
+"addressDescription": "Amsterdamse Bos Grote speelweide bij brug 522 naar kanoverhuur",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Amsterdamse Bos Grote speelweide bij brug 522 naar kanoverhuur, Amsterdam"
+},
+{
+"district": "HAVEN",
+"latitude": 52.3879248,
+"longitude": 4.8916450000000395,
+"addressDescription": "westerdoksdijk 703",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "westerdoksdijk 703, Amsterdam"
+},
+
+{
+"district": "",
+"latitude": 52.36109,
+"longitude": 4.875000600000021,
+"addressDescription": "VONDELPARK 3",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "van eeghenfontein",
+"info": "VONDELPARK 3, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.36675750000001,
+"longitude": 4.90911200000005,
+"addressDescription": "Plantage Middenlaan / Plantage Parklaan",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Plantage Middenlaan / Plantage Parklaan, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.362249,
+"longitude": 4.898285699999974,
+"addressDescription": "Amstelveld 21",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Amstelveld 21, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3865298,
+"longitude": 4.889031299999942,
+"addressDescription": "Bickersgracht 282",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Bickersgracht 282, Amsterdam"
+},
+{
+"district": "CENTRUM",
+"latitude": 52.3619745,
+"longitude": 4.88882250000006,
+"addressDescription": "1e weteringdwarsstraat 49",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "1e weteringdwarsstraat 49, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3602818,
+"longitude": 4.888122199999998,
+"addressDescription": "Weteringschans 30",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Weteringschans 30, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3606461,
+"longitude": 4.889248500000008,
+"addressDescription": "Nieuwe Weteringstraat 46",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Nieuwe Weteringstraat 46, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3838593,
+"longitude": 4.88875280000002,
+"addressDescription": "Hendrik Jonkerplein 3",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Hendrik Jonkerplein 3, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.371703,
+"longitude": 4.91480660000002,
+"addressDescription": "Kattenburgerplein 1",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Kattenburgerplein 1, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3779792,
+"longitude": 4.879105900000013,
+"addressDescription": "Marnixplein 2A",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Marnixplein 2A, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3721693,
+"longitude": 4.904669799999965,
+"addressDescription": "Oudeschans 10d",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Oudeschans 10d, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3817004,
+"longitude": 4.879861799999958,
+"addressDescription": "eerste marnixplantsoen 9",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "eerste marnixplantsoen 9, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 51.9655183,
+"longitude": 6.714620400000058,
+"addressDescription": "Keizersstraat 5",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Keizersstraat 5, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.36543,
+"longitude": 4.902822499999957,
+"addressDescription": "Amstel 51",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Amstel 51, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3672391,
+"longitude": 4.90566309999997,
+"addressDescription": "Jonas Daniel Meyerplein 15",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Jonas Daniel Meyerplein 15, Amsterdam"
+},
+{
+"district": "CENTRUM",
+"latitude": 52.36435119999999,
+"longitude": 4.883388999999966,
+"addressDescription": "Leidseplein 1",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Leidseplein 1, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 51.6988516,
+"longitude": 5.259671199999957,
+"addressDescription": "Beatrixpark 0",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Beatrixpark 0, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3657851,
+"longitude": 4.897398199999998,
+"addressDescription": "rembrandtplein 46",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "rembrandtplein 46, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3723533,
+"longitude": 4.883252500000026,
+"addressDescription": "Westermarkt hoek prinsengracht",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Westermarkt hoek prinsengracht, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.35897259999999,
+"longitude": 4.891688400000021,
+"addressDescription": "H.M.van Randwijkplantsoen 1",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "H.M.van Randwijkplantsoen 1, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.36221159999999,
+"longitude": 4.8832704999999805,
+"addressDescription": "max Euwensplein 65",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "max Euwensplein 65, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.342989,
+"longitude": 4.880461700000069,
+"addressDescription": "Beatrixpark",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Beatrixpark, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.342989,
+"longitude": 4.880461700000069,
+"addressDescription": "Beartixpark",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Beartixpark, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.36698639999999,
+"longitude": 4.907900000000041,
+"addressDescription": "Plantage Middenlaan 2A",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Plantage Middenlaan 2A, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.3726445,
+"longitude": 4.899888899999951,
+"addressDescription": "Nieuwmarkt",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Nieuwmarkt, Amsterdam"
+},
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3579484,
+"longitude": 4.807968399999936,
+"addressDescription": "Meer en Vaart 318",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Meer en Vaart 318, Amsterdam"
+},
+
+{
+"district": "CENTRUM",
+"latitude": 52.0863356,
+"longitude": 5.118816299999935,
+"addressDescription": "Egelantiersstraat 72/Tuinplein",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Egelantiersstraat 72/Tuinplein, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3780721,
+"longitude": 4.82842549999998,
+"addressDescription": "Gerbrandypark zwembad",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Gerbrandypark zwembad, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3743308,
+"longitude": 4.813011700000061,
+"addressDescription": "Confuciusplein 14",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Confuciusplein 14, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3591401,
+"longitude": 4.793747400000029,
+"addressDescription": "Botteskerksingel 17",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Botteskerksingel 17, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3630834,
+"longitude": 4.823478300000033,
+"addressDescription": "bakhuizen vd Brinkhof 14",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "bakhuizen vd Brinkhof 14, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3491333,
+"longitude": 4.831347300000061,
+"addressDescription": "staalmanpark 10",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "staalmanpark 10, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.4537347,
+"longitude": 4.810701699999981,
+"addressDescription": "Piet Mondriaanplein 2",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Piet Mondriaanplein 2, Amsterdam"
+},
+{
+"district": "NIEUW-WEST",
+"latitude": 52.35615079999999,
+"longitude": 4.845387200000005,
+"addressDescription": "Saskia van Uijlenburgkade 100",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Saskia van Uijlenburgkade 100, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.368618,
+"longitude": 4.84908310000003,
+"addressDescription": "Rembrandtpark orteliuskade 28",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Rembrandtpark orteliuskade 28, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.355669,
+"longitude": 4.7925562000000355,
+"addressDescription": "Evertsweertplantsoen 70",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Evertsweertplantsoen 70, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.368618,
+"longitude": 4.84908310000003,
+"addressDescription": "Rembrandtpark orteliuskade 58",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Rembrandtpark orteliuskade 58, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3815871,
+"longitude": 4.825989400000026,
+"addressDescription": "Van Gilsestraat 11",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Van Gilsestraat 11, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.364113,
+"longitude": 4.798638500000038,
+"addressDescription": "Sondebuur 38",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Sondebuur 38, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3821424,
+"longitude": 4.832136699999978,
+"addressDescription": "Wilco Jiskootpad 4",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Wilco Jiskootpad 4, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.15425399999999,
+"longitude": 4.477448600000002,
+"addressDescription": "Lodewijk van Deijsselstraat",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Lodewijk van Deijsselstraat, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3708767,
+"longitude": 4.820978200000013,
+"addressDescription": "Th.J. Lammerslaan 1",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Th.J. Lammerslaan 1, Amsterdam"
+},
+{
+"district": "NOORD",
+"latitude": 52.4173301,
+"longitude": 4.888949499999967,
+"addressDescription": "Molenwijk wipmolen 1-88",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Molenwijk wipmolen 1-88, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3870874,
+"longitude": 4.910970700000007,
+"addressDescription": "laanweg 131",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "laanweg 131, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3918437,
+"longitude": 4.953581600000007,
+"addressDescription": "Werengouw 85",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Werengouw 85, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3918612,
+"longitude": 4.959214900000006,
+"addressDescription": "Volendammerweg 160",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Volendammerweg 160, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3837351,
+"longitude": 4.914286299999958,
+"addressDescription": "Spreeuwenpark 22",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Spreeuwenpark 22, Amsterdam"
+},
+
+{
+"district": "NIEUW-WEST",
+"latitude": 52.3580026,
+"longitude": 4.797656400000051,
+"addressDescription": "Tussenmeer Wolbrantskerkweg kerk",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Tussenmeer / Wolbrantskerkweg kerk, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.4109932,
+"longitude": 4.9219424000000345,
+"addressDescription": "Parlevinker 11",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Parlevinker 11, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.4697766,
+"longitude": 5.898633300000029,
+"addressDescription": "Heijmansweg 42",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Heijmansweg 42, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 53.0770756,
+"longitude": 6.764282299999991,
+"addressDescription": "Molenwijk 5",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Molenwijk 5, Amsterdam"
+},
+{
+"district": "NOORD",
+"latitude": 52.39118879999999,
+"longitude": 4.956364500000063,
+"addressDescription": "Volendammerweg 140",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Volendammerweg 140, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3907047,
+"longitude": 4.956692400000065,
+"addressDescription": "Bussumstraat 50",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Bussumstraat 50, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3941454,
+"longitude": 4.923094100000071,
+"addressDescription": "nieuwe Leeuwardeweg 15",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "nieuwe Leeuwardeweg 15, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3871318,
+"longitude": 4.9184199000000035,
+"addressDescription": "Zwanenplein 34",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Zwanenplein 34, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.38359209999999,
+"longitude": 4.917955699999993,
+"addressDescription": "Ketelmakerij 161",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Ketelmakerij 161, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3890135,
+"longitude": 4.916150199999947,
+"addressDescription": "Buiksloterweg 195",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Buiksloterweg 195, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.3964094,
+"longitude": 4.934357999999975,
+"addressDescription": "Breedveld 8",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Breedveld 8, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 52.22437129999999,
+"longitude": 5.187051500000052,
+"addressDescription": "jac. P. Thijsseplein 23",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "jac. P. Thijsseplein 23, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 51.4296324,
+"longitude": 5.5637943000000405,
+"addressDescription": "Kievitstraat 68",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Kievitstraat 68, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 51.12077420000001,
+"longitude": 6.0418822999999975,
+"addressDescription": "Varenweg 6",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Varenweg 6, Amsterdam"
+},
+
+{
+"district": "NOORD",
+"latitude": 28.0501985,
+"longitude": -82.11682940000003,
+"addressDescription": "Watercountryplein 16",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Watercountryplein 16, Amsterdam"
+},
+{
+"district": "OOST",
+"latitude": 38.4277483,
+"longitude": -122.5616382,
+"addressDescription": "van 't Hofflaan 43",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "van 't Hofflaan 43, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3623737,
+"longitude": 4.935861299999942,
+"addressDescription": "Sumatrastraat 66",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Sumatrastraat 66, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3640529,
+"longitude": 4.946525899999983,
+"addressDescription": "Kramatweg 42",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Kramatweg 42, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.5181197,
+"longitude": 6.109800700000051,
+"addressDescription": "Celebesstraat 24",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Celebesstraat 24, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3605508,
+"longitude": 4.942682600000012,
+"addressDescription": "Sumatraplantsoen 19",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Sumatraplantsoen 19, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.16235270000001,
+"longitude": 4.4791221000000405,
+"addressDescription": "Joubertstraat 13",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Joubertstraat 13, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3630667,
+"longitude": 4.944275999999945,
+"addressDescription": "Javastraat 200",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Javastraat 200, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3584112,
+"longitude": 4.923183699999981,
+"addressDescription": "Kastanjeplein t/ o 60-156",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Kastanjeplein t/ o 60-156, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3653007,
+"longitude": 4.936075800000026,
+"addressDescription": "Timorplein 7",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Timorplein 7, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3592567,
+"longitude": 4.937326399999961,
+"addressDescription": "Sumatrastraat 137",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Sumatrastraat 137, Amsterdam"
+},
+{
+"district": "OOST",
+"latitude": 34.694938,
+"longitude": -92.38469509999999,
+"addressDescription": "Javaplein 22",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Javaplein 22, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3574362,
+"longitude": 4.932140699999991,
+"addressDescription": "Paradijsplein 2",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Paradijsplein 2, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3549912,
+"longitude": 4.923210199999971,
+"addressDescription": "Steve Bikoplein 20",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Steve Bikoplein 20, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.36068119999999,
+"longitude": 4.938486300000022,
+"addressDescription": "obiplein 71",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "obiplein 71, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3493544,
+"longitude": 4.9508356999999705,
+"addressDescription": "Middenmeerpad 0",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Middenmeerpad 0, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.36205580000001,
+"longitude": 4.945756500000016,
+"addressDescription": "Kramatweg 52",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Kramatweg 52, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3582128,
+"longitude": 4.95138529999997,
+"addressDescription": "Valentijnkade 130",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Valentijnkade 130, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3462519,
+"longitude": 4.91425890000005,
+"addressDescription": "Weesperzijde 177",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Weesperzijde 177, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3599769,
+"longitude": 4.912303999999949,
+"addressDescription": "Boerhaaveplein 21",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Boerhaaveplein 21, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.374135,
+"longitude": 4.94545770000002,
+"addressDescription": "Keesje Brijdeplantsoen 16",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Keesje Brijdeplantsoen 16, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.35400060000001,
+"longitude": 4.922801199999981,
+"addressDescription": "Transvaalstraat 104",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Transvaalstraat 104, Amsterdam"
+},
+{
+"district": "WEST",
+"latitude": 52.3803291,
+"longitude": 4.8403401000000486,
+"addressDescription": "Flierefluiterpad 15",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Flierefluiterpad 15, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.35981839999999,
+"longitude": 4.925172699999962,
+"addressDescription": "Oosterpark bij Linnaeusstraat",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Oosterpark bij Linnaeusstraat, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3605369,
+"longitude": 4.917787999999973,
+"addressDescription": "Oosterpark zijde 's-Gravensandeplein speeltuin",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Oosterpark zijde 's-Gravensandeplein speeltuin, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3589699,
+"longitude": 4.920930300000009,
+"addressDescription": "Oosterpark muziektent",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Oosterpark muziektent, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.356982,
+"longitude": 4.996244299999944,
+"addressDescription": "Ed Pelsterpark",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Ed Pelsterpark, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.3501142,
+"longitude": 5.007982800000036,
+"addressDescription": "Eva Besnyostraat 493",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Eva Besnyostraat 493, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 39.7246496,
+"longitude": -74.29059960000001,
+"addressDescription": "Pieter Nieuwcountrystraat 72",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Pieter Nieuwcountrystraat 72, Amsterdam"
+},
+
+{
+"district": "OOST",
+"latitude": 52.350465,
+"longitude": 4.93459699999994,
+"addressDescription": "Middenweg / Kruislaan",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Middenweg / Kruislaan, Amsterdam"
+},
+{
+"district": "WEST",
+"latitude": 52.3815444,
+"longitude": 4.870610800000009,
+"addressDescription": "van Beuningeplein 32",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "van Beuningeplein 32, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 36.8405469,
+"longitude": -76.13158880000003,
+"addressDescription": "Columbusplein 6",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Columbusplein 6, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3629225,
+"longitude": 4.8618805999999495,
+"addressDescription": "Lootsstraat 41",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Lootsstraat 41, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3905604,
+"longitude": 4.873179100000016,
+"addressDescription": "Hembrugstraat 283",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Hembrugstraat 283, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.38330819999999,
+"longitude": 4.871309699999983,
+"addressDescription": "Bentinckstraat 78",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Bentinckstraat 78, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 41.7116835,
+"longitude": -72.74412540000003,
+"addressDescription": "Da Costaplein 8",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Da Costaplein 8, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 33.2191537,
+"longitude": -80.44695079999997,
+"addressDescription": "Ten Kateplein 1",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Ten Kateplein 1, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3685945,
+"longitude": 4.854888899999992,
+"addressDescription": "Vasco di Gamastraat 49",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Vasco di Gamastraat 49, Amsterdam"
+},
+{
+"district": "WEST",
+"latitude": 40.8869015,
+"longitude": -81.57099360000001,
+"addressDescription": "Barentsstraat 203",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Barentsstraat 203, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3738403,
+"longitude": 4.846379100000036,
+"addressDescription": "Robert Scottstraat 28",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Robert Scottstraat 28, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.359637,
+"longitude": 4.849638099999993,
+"addressDescription": "Postjeskade 221",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Postjeskade 221, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3761269,
+"longitude": 4.846326200000021,
+"addressDescription": "Bos en lommerplantsoen 781",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Bos en lommerplantsoen 781, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3816307,
+"longitude": 4.851780299999973,
+"addressDescription": "Hertspiegelweg 72",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Hertspiegelweg 72, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3644154,
+"longitude": 4.858947199999989,
+"addressDescription": "Postjesweg 1",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Postjesweg 1, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3707615,
+"longitude": 4.847874999999931,
+"addressDescription": "Orteliuskade 92",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Orteliuskade 92, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 51.792598,
+"longitude": 4.649428700000044,
+"addressDescription": "Admiraal de ruyterweg 90",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Admiraal de ruyterweg 90, Amsterdam"
+},
+{
+"district": "WEST",
+"latitude": 52.3619441,
+"longitude": 4.8584580000000415,
+"addressDescription": "Jacob van Lennepkade 428",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Jacob van Lennepkade 428, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3820264,
+"longitude": 4.847883300000035,
+"addressDescription": "Wiltzanghlaan 42",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Wiltzanghlaan 42, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 51.16882589999999,
+"longitude": 4.439062199999967,
+"addressDescription": "Ernest Staesstraat 5",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Ernest Staesstraat 5, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.36907129999999,
+"longitude": 4.870224499999949,
+"addressDescription": "Kwakersplein . 4",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Kwakersplein . 4, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3894768,
+"longitude": 4.880345700000021,
+"addressDescription": "Suikerplein 97",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Suikerplein 97, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 53.17368519999999,
+"longitude": 5.426931599999989,
+"addressDescription": "Tjerk Hddes de vriesstraat 13",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Tjerk Hddes de vriesstraat 13, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3725052,
+"longitude": 4.858006100000011,
+"addressDescription": "Pieter van der doesstraat 15",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Pieter van der doesstraat 15, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 51.8678502,
+"longitude": 4.666650200000049,
+"addressDescription": "Nicolaas Beetstraat 120",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Nicolaas Beetstraat 120, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3775048,
+"longitude": 4.853651099999979,
+"addressDescription": "Wachterliedplantsoen 2",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Wachterliedplantsoen 2, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.0959958,
+"longitude": 5.0960824,
+"addressDescription": "Cremerplein 27A",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Cremerplein 27A, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3714411,
+"longitude": 4.867049400000042,
+"addressDescription": "Bilderdijkkade 2",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Bilderdijkkade 2, Amsterdam"
+},
+{
+"district": "WEST",
+"latitude": 52.3744144,
+"longitude": 4.86113249999994,
+"addressDescription": "Reinier Claeszenplein 10",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Reinier Claeszenplein 10, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.37132820000001,
+"longitude": 4.86931960000004,
+"addressDescription": "Bilderdijkpark 12",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Bilderdijkpark 12, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3738445,
+"longitude": 4.864520599999992,
+"addressDescription": "Geuzenkade 63",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Geuzenkade 63, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.35941380000001,
+"longitude": 4.854306700000052,
+"addressDescription": "Paramariboplein 37",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Paramariboplein 37, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.0938175,
+"longitude": 5.087647400000037,
+"addressDescription": "Curacaostraat 25",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Curacaostraat 25, Amsterdam"
+},
+
+{
+"district": "WEST",
+"latitude": 52.3716405,
+"longitude": 4.86887569999999,
+"addressDescription": "Bilderdijkpark 10",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "delta tappunt",
+"info": "Bilderdijkpark 10, Amsterdam"
+},
+{
+"district": "ZUID",
+"latitude": 52.35088769999999,
+"longitude": 4.898428500000023,
+"addressDescription": "Henrick de Keijserplein 30",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Henrick de Keijserplein 30, Amsterdam"
+},
+
+{
+"district": "ZUID",
+"latitude": 52.0719593,
+"longitude": 5.125759700000003,
+"addressDescription": "Smaragdplein 5",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Smaragdplein 5, Amsterdam"
+},
+
+{
+"district": "ZUID",
+"latitude": 52.3579946,
+"longitude": 4.868648399999984,
+"addressDescription": "Vondelpark",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Vondelpark, Amsterdam"
+},
+
+{
+"district": "ZUID",
+"latitude": 52.2291092,
+"longitude": 5.16564249999999,
+"addressDescription": "Koninginneweg 2",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Koninginneweg 2"
+},
+
+{
+"district": "ZUID",
+"latitude": 52.3403749,
+"longitude": 4.91020530000003,
+"addressDescription": "Maarten Luther Kingpark Zuidelijke Wandelweg",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Maarten Luther Kingpark Zuidelijke Wandelweg, Amsterdam"
+},
+
+{
+"district": "ZUID",
+"latitude": 52.3461706,
+"longitude": 4.832328999999959,
+"addressDescription": "Aletta Jacobslaan 5",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Aletta Jacobslaan 5, Amsterdam"
+},
+{
+"district": "ZUID",
+"latitude": 52.3538156,
+"longitude": 4.89401620000001,
+"addressDescription": "Sarphatiepark Sarphatiepark 22",
+"city": "Amsterdam",
+"country": "Netherlands",
+"type": "happertje",
+"info": "Sarphatiepark Sarphatiepark 22, Amsterdam"
+}
+
+]

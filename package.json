@@ -1,0 +1,26 @@
+{
+  "name": "Find drink water",
+  "displayName": "Find drink water",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yanick007",
+  "license": "Apache-2.0",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "^6.2.3",
+    "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-whitelist": "1"
+  }
+}

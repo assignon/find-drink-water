@@ -1,0 +1,1632 @@
+var mapMarkers = [
+ {
+   "latitude": 52.057936,
+   "longitude": 4.4787179,
+   "addressDescription": " Abdissenbos 15",
+   "city": " 2715 XA Zoetermeer",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.38083,
+   "longitude": 4.892484,
+   "addressDescription": " Haarlemmer Houttuinen 15 BG",
+   "city": " 1013 ET Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.381678,
+   "longitude": 4.880076,
+   "addressDescription": " Eerste Marnixplantsoen 9",
+   "city": " 1015VG Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.386439,
+   "longitude": 4.872257,
+   "addressDescription": " Gosschalklaan 7",
+   "city": " 1014DC Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.364211,
+   "longitude": 4.88309,
+   "addressDescription": " Leidseplein 3",
+   "city": " 1017PR Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.358609,
+   "longitude": 4.91717,
+   "addressDescription": " Oosterpark 9",
+   "city": " 1092 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.360328,
+   "longitude": 4.875226,
+   "addressDescription": " Vondelpark",
+   "city": " Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.359461,
+   "longitude": 4.88537,
+   "addressDescription": " Museumplein",
+   "city": " Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3720415,
+   "longitude": 4.904676,
+   "addressDescription": " Oudeschans 14",
+   "city": " 1011KZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3563931,
+   "longitude": 4.855956,
+   "addressDescription": " Vondelpark",
+   "city": " Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.377204,
+   "longitude": 4.88342,
+   "addressDescription": " Tuinstraat 69",
+   "city": " 1015NZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.379298,
+   "longitude": 4.876936,
+   "addressDescription": " Frederik Hendrik Plantsoen",
+   "city": " 1052CP Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3717908,
+   "longitude": 4.8597261,
+   "addressDescription": " Admiraal de Ruijterweg 90II",
+   "city": " 1056 GN Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0668244,
+   "longitude": 4.3132309,
+   "addressDescription": " Albert Cuypstraat 9",
+   "city": " 2526 DE Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3652831,
+   "longitude": 4.9020873,
+   "addressDescription": " Amstel 51C",
+   "city": " 1018 EJ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3702038,
+   "longitude": 4.8953265,
+   "addressDescription": " Oudezijds Achterburgwal 1921",
+   "city": " 1012 DX Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0913709,
+   "longitude": 4.2958084,
+   "addressDescription": " Ary van der Spuyweg 1",
+   "city": " 2585 JA Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0916074,
+   "longitude": 4.2957371,
+   "addressDescription": " Ary van der Spuyweg 3",
+   "city": " 2585 JA Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3630834,
+   "longitude": 4.8234783,
+   "addressDescription": " Bakhuizen van Den Brinkhof 14",
+   "city": " 1065 AZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3887969,
+   "longitude": 4.8874193,
+   "addressDescription": " Barentszstraat 203",
+   "city": " 1013 NM Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3833082,
+   "longitude": 4.8713097,
+   "addressDescription": " Bentinckstraat 78",
+   "city": " 1051 GN Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3714411,
+   "longitude": 4.8670494,
+   "addressDescription": " Bilderdijkkade 2",
+   "city": " 1052 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3716405,
+   "longitude": 4.8688757,
+   "addressDescription": " Bilderdijkpark 10",
+   "city": " 1052 SB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3713424,
+   "longitude": 4.869631,
+   "addressDescription": " Bilderdijkpark 7HS",
+   "city": " 1052 SB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0361015,
+   "longitude": 4.3150917,
+   "addressDescription": " Willem Royaardsstraat 3-A",
+   "city": " 2284 DH Rijswijk",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3759113,
+   "longitude": 4.8444818,
+   "addressDescription": " Bos en Lommerplantsoen 77",
+   "city": " 1055 AA Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2515238,
+   "longitude": 4.4383575,
+   "addressDescription": " Bosweg 26",
+   "city": " 2202 NV Noordwijk",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2066289,
+   "longitude": 4.3947128,
+   "addressDescription": " Boulevard Zeezijde 11",
+   "city": " 2225BB Katwijk aan Zee",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.202935,
+   "longitude": 4.3912121,
+   "addressDescription": " Boulevard Zeezijde 23",
+   "city": " 2225 BB Katwijk aan Zee",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2079005,
+   "longitude": 4.395743,
+   "addressDescription": " Boulevard Zeezijde 9",
+   "city": " 2225 BB Katwijk aan Zee",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3964094,
+   "longitude": 4.934358,
+   "addressDescription": " Breedveld 8",
+   "city": " 1025 PZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3890135,
+   "longitude": 4.9161502,
+   "addressDescription": " Buiksloterweg 195",
+   "city": " 1031 DB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3907047,
+   "longitude": 4.9566924,
+   "addressDescription": " Bussumstraat 53",
+   "city": " 1024 NE Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3728083,
+   "longitude": 4.9368365,
+   "addressDescription": " C.J.K Van Aalststraat 101",
+   "city": " 1019 JX Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1011664,
+   "longitude": 4.3337161,
+   "addressDescription": " Clingendael 6",
+   "city": " 2597 VH Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3660371,
+   "longitude": 4.8557859,
+   "addressDescription": " Columbusplein 4III",
+   "city": " 1057 TZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3743308,
+   "longitude": 4.8130117,
+   "addressDescription": " Confuciusplein 14",
+   "city": " 1064 LG Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.142573,
+   "longitude": 4.494465,
+   "addressDescription": " Cronesteyn 3",
+   "city": " 2322 LH Leiden",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3704846,
+   "longitude": 4.8737936,
+   "addressDescription": " Da Costaplein 9HS",
+   "city": " 1053 ZV Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0724444,
+   "longitude": 4.2520798,
+   "addressDescription": " Daal en Bergselaan 60",
+   "city": " 2565 AG Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0737291,
+   "longitude": 4.240013,
+   "addressDescription": " De Savornin Lohmanlaan 481",
+   "city": " 2566 AL Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0760649,
+   "longitude": 4.2379688,
+   "addressDescription": " De Savornin Lohmanlaan 525",
+   "city": " 2566 AN Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0685517,
+   "longitude": 4.2203507,
+   "addressDescription": " Deltaplein 522",
+   "city": " 2554 GH Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1080869,
+   "longitude": 4.2989989,
+   "addressDescription": " Doorniksestraat 57",
+   "city": " 2587 XK Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0553983,
+   "longitude": 4.4986391,
+   "addressDescription": " Dorpsstraat 111",
+   "city": " 2712 AE Zoetermeer",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2634889,
+   "longitude": 4.4932252,
+   "addressDescription": " Dorpsstraat 4",
+   "city": " 2211 Noordwijkerhout",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0873109,
+   "longitude": 4.2538474,
+   "addressDescription": " Duivelandsestraat 77",
+   "city": " 2583 KM Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3573098,
+   "longitude": 4.9965183,
+   "addressDescription": " Erich Salomonstraat 299",
+   "city": " 1087 EH Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0444724,
+   "longitude": 4.2593438,
+   "addressDescription": " Eekhoornrade 124",
+   "city": " 2544 Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3619745,
+   "longitude": 4.8888225,
+   "addressDescription": " Eerste Weteringdwarsstraat 49",
+   "city": " 1017 TL Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3766097,
+   "longitude": 4.840665,
+   "addressDescription": " Ernest Staesstraat 5II",
+   "city": " 1061 BZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3501814,
+   "longitude": 5.0075386,
+   "addressDescription": " Eva Besnyöstraat 507-527",
+   "city": " 1087 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3554237,
+   "longitude": 4.7936308,
+   "addressDescription": " Evertsweertplantsoen 23",
+   "city": " 1069 RK Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3803291,
+   "longitude": 4.8403401,
+   "addressDescription": " Flierefluiterpad 15",
+   "city": " 1061 ER Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3667719,
+   "longitude": 4.9262991,
+   "addressDescription": " Funenkade 7",
+   "city": " 1018 AL Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3739373,
+   "longitude": 4.8645055,
+   "addressDescription": " Geuzenkade 91-101",
+   "city": " 1056 LB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0716502,
+   "longitude": 4.3083774,
+   "addressDescription": " Helena van Doeverenplantsoen 39",
+   "city": " 2512 ZC Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0645229,
+   "longitude": 4.2287563,
+   "addressDescription": " Heliotrooplaan 15",
+   "city": " 2555 MA Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0641251,
+   "longitude": 4.2294375,
+   "addressDescription": " Heliotrooplaan 5",
+   "city": " 2555 MA Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3905604,
+   "longitude": 4.8731791,
+   "addressDescription": " Hembrugstraat 283",
+   "city": " 1013 XD Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3838593,
+   "longitude": 4.8887528,
+   "addressDescription": " Hendrik Jonkerplein 3",
+   "city": " 1013 KM Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0552496,
+   "longitude": 4.2881813,
+   "addressDescription": " Henriëtte Roland Holstweg 100",
+   "city": " 2533 ST Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3539452,
+   "longitude": 4.8880467,
+   "addressDescription": " Hercules Seghersstraat 12",
+   "city": " 1072 LZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3596692,
+   "longitude": 4.8921503,
+   "addressDescription": " Weteringschans 169",
+   "city": " 1017 XD Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1014529,
+   "longitude": 4.3559392,
+   "addressDescription": " Hofzichtlaan 1",
+   "city": " 2594 CB Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0729267,
+   "longitude": 4.3230231,
+   "addressDescription": " Huijgenspark 60",
+   "city": " 2515 BB Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0951776,
+   "longitude": 4.3686682,
+   "addressDescription": " Isabellaland 261",
+   "city": " 2591 Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3591473,
+   "longitude": 4.8583251,
+   "addressDescription": " J.J. Cremerplein 25HS",
+   "city": " 1054 TG Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3619304,
+   "longitude": 4.8583479,
+   "addressDescription": " Jacob Van Lennepkade 383-428",
+   "city": " 1053 NP Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0791857,
+   "longitude": 4.3283254,
+   "addressDescription": " Jan van Riebeekstraat 222",
+   "city": " 2595 WZ Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3636386,
+   "longitude": 4.9386179,
+   "addressDescription": " Javaplein 22B",
+   "city": " 1094 HX Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0565917,
+   "longitude": 4.2855966,
+   "addressDescription": " Johanna Naberweg 5",
+   "city": " 2533 SE Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3662774,
+   "longitude": 4.9050278,
+   "addressDescription": " Nieuwe Herengracht 2-3",
+   "city": " 1018 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0593526,
+   "longitude": 4.2432977,
+   "addressDescription": " Jules Massenetstraat 10",
+   "city": " 2551 XD Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.105482,
+   "longitude": 4.2904644,
+   "addressDescription": " Kapelweg 35",
+   "city": " 2587 BK Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3585906,
+   "longitude": 4.9230791,
+   "addressDescription": " Kastanjeplein 60",
+   "city": " 1092 LA Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1992375,
+   "longitude": 4.4106683,
+   "addressDescription": " Dennenlaan 1",
+   "city": " 2224 EM Katwijk aan Zee",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.374135,
+   "longitude": 4.9454577,
+   "addressDescription": " Keesje Brijdeplantsoen 16",
+   "city": " 1019 TG Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0933528,
+   "longitude": 4.2999075,
+   "addressDescription": " Kerkhoflaan 10",
+   "city": " 2585 JB Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0108474,
+   "longitude": 4.5296745,
+   "addressDescription": " Kerkstraat 2",
+   "city": " 2665 BE Bleiswijk",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0666891,
+   "longitude": 4.3657246,
+   "addressDescription": " Kerkstraat 58",
+   "city": " 2271 CT Voorburg",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3877626,
+   "longitude": 4.9224859,
+   "addressDescription": " Albatrospad 32",
+   "city": " 1021 TR Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0331766,
+   "longitude": 4.3264698,
+   "addressDescription": " Klaroenstraat 119",
+   "city": " 2287 Rijswijk",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2004595,
+   "longitude": 4.4854053,
+   "addressDescription": " Klinkenbergerpad",
+   "city": " 2343 Oegstgeest",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2332349,
+   "longitude": 4.4209021,
+   "addressDescription": " Kon. Astrid Boulevard 69",
+   "city": " 2202 BD Noordwijk",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.044721,
+   "longitude": 4.4580199,
+   "addressDescription": " Kurkhout 100",
+   "city": " 2719 JZ Zoetermeer",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0807443,
+   "longitude": 4.2505561,
+   "addressDescription": " Kwartellaan 56",
+   "city": " 2566 DZ Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0852785,
+   "longitude": 4.263135,
+   "addressDescription": " Laan van Poot 128",
+   "city": " 2566 EC Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0791815,
+   "longitude": 4.2469631,
+   "addressDescription": " Laan van Poot 320",
+   "city": " 2566 DD Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3870874,
+   "longitude": 4.9109707,
+   "addressDescription": " Laanweg 131",
+   "city": " 1031 JE Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1441204,
+   "longitude": 4.3934802,
+   "addressDescription": " Langstraat 37",
+   "city": " 2242 KK Wassenaar",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2357451,
+   "longitude": 4.481325,
+   "addressDescription": " Leidsevaart 210",
+   "city": " 2211 WE Noordwijkerhout",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2772264,
+   "longitude": 4.5358115,
+   "addressDescription": " Leidsevaart 7",
+   "city": " 2161 AR Lisse",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3595342,
+   "longitude": 4.925374,
+   "addressDescription": " Linnaeusstraat 16",
+   "city": " 1092 CK Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0534485,
+   "longitude": 4.2348828,
+   "addressDescription": " Loosduinse Hoofdplein 189",
+   "city": " 2553 CZ Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3629276,
+   "longitude": 4.8619011,
+   "addressDescription": " Lootsstraat 41II",
+   "city": " 1053 NV Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3822462,
+   "longitude": 4.8808123,
+   "addressDescription": " Marnixkade 31",
+   "city": " 1015 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3779857,
+   "longitude": 4.8790901,
+   "addressDescription": " Marnixplein 2B",
+   "city": " 1015 ZN Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3622116,
+   "longitude": 4.8832705,
+   "addressDescription": " Max Euweplein 65",
+   "city": " 1017 MA Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.130575,
+   "longitude": 4.3540213,
+   "addressDescription": " Meijendelseweg 30",
+   "city": " 2243 Wassenaar",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1290591,
+   "longitude": 4.3338681,
+   "addressDescription": " Meijendelseweg 36-40",
+   "city": " 2244 Wassenaar",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3495645,
+   "longitude": 4.9511608,
+   "addressDescription": " Middenmeerpad 7",
+   "city": " 1098 SM Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.4205846,
+   "longitude": 4.8905377,
+   "addressDescription": " Molenwijk 3A",
+   "city": " 1035 EE Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0685871,
+   "longitude": 4.3172725,
+   "addressDescription": " Naaldwijksestraat 120",
+   "city": " 2515 MZ Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3629329,
+   "longitude": 4.867157,
+   "addressDescription": " Nicolaas Beetsstraat 118I",
+   "city": " 1054 XT Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3936809,
+   "longitude": 4.9235597,
+   "addressDescription": " Nieuwe Leeuwarderweg 15",
+   "city": " 1022 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1690057,
+   "longitude": 4.4987813,
+   "addressDescription": " Nieuwe Marnixstraat 90-92",
+   "city": " 2316 Leiden",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3724235,
+   "longitude": 4.9008932,
+   "addressDescription": " Nieuwmarkt 13B",
+   "city": " 1011 JR Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.210761,
+   "longitude": 4.4042119,
+   "addressDescription": " Noordduinseweg 3",
+   "city": " 2221 BL Katwijk aan Zee",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0249998,
+   "longitude": 4.4222347,
+   "addressDescription": " Noordweg 79",
+   "city": " 2641 ZA Pijnacker",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3606812,
+   "longitude": 4.9384863,
+   "addressDescription": " Obiplein 71",
+   "city": " 1094 RB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.2823458,
+   "longitude": 4.5155481,
+   "addressDescription": " Oosterduinen 26",
+   "city": " 2211 ZB Noordwijkerhout",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0708438,
+   "longitude": 4.3143743,
+   "addressDescription": " Oranjeplein 113",
+   "city": " 2515 PV Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3708502,
+   "longitude": 4.847842,
+   "addressDescription": " Orteliuskade 93-94",
+   "city": " 1056 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1094927,
+   "longitude": 4.3244779,
+   "addressDescription": " Oude Waalsdorperweg 61",
+   "city": " 2597 AK Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0333734,
+   "longitude": 4.2627473,
+   "addressDescription": " Pachtersdreef 108",
+   "city": " 2542 XK Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.358276,
+   "longitude": 4.9331084,
+   "addressDescription": " Waldenlaan 327",
+   "city": " 1093 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1765411,
+   "longitude": 4.5093693,
+   "addressDescription": " Parkzicht 17-97",
+   "city": " 2317 Leiden",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.4109932,
+   "longitude": 4.9219424,
+   "addressDescription": " Parlevinker 11",
+   "city": " 1034 PX Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.4537347,
+   "longitude": 4.8107017,
+   "addressDescription": " Piet Mondriaanstraat 2",
+   "city": " 1506 KM Zaandam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.362038,
+   "longitude": 4.9290181,
+   "addressDescription": " Pieter Nieuwlandstraat 59B",
+   "city": " 1093 XL Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3728459,
+   "longitude": 4.8577581,
+   "addressDescription": " Pieter van der Doesstraat 17R",
+   "city": " 1056 VB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3669092,
+   "longitude": 4.9125755,
+   "addressDescription": " Plantage Kerklaan 38",
+   "city": " 1018 CZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0462192,
+   "longitude": 4.4760508,
+   "addressDescription": " Plein van de Verenigde Naties 11",
+   "city": " 2719 EG Zoetermeer",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1651816,
+   "longitude": 4.4655979,
+   "addressDescription": " Plesmanlaan 6",
+   "city": " 2332 CC Leiden",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.359637,
+   "longitude": 4.8496381,
+   "addressDescription": " Postjeskade 221",
+   "city": " 1058 DW Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3643334,
+   "longitude": 4.8588983,
+   "addressDescription": " Postjesweg 1",
+   "city": " 1057 DT Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3710026,
+   "longitude": 4.8920087,
+   "addressDescription": " Kalverstraat 53",
+   "city": " 1012 NZ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3742144,
+   "longitude": 4.8611524,
+   "addressDescription": " Reinier Claeszenplein 10-12",
+   "city": " 1056 WB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3657851,
+   "longitude": 4.8973982,
+   "addressDescription": " Rembrandtplein 46",
+   "city": " 1017 CV Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1043541,
+   "longitude": 4.3293349,
+   "addressDescription": " Ruychrocklaan 496",
+   "city": " 2597 EK Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0492672,
+   "longitude": 4.291521,
+   "addressDescription": " Sara Burgerhartweg 93",
+   "city": " 2533 JC Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3562678,
+   "longitude": 4.8452869,
+   "addressDescription": " Saskia van Uijlenburgkade 66",
+   "city": " 1058 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0633368,
+   "longitude": 4.2206055,
+   "addressDescription": " Schapenatjesduin 9",
+   "city": " 2554 BW Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0811625,
+   "longitude": 4.2679509,
+   "addressDescription": " Segbroeklaan 400",
+   "city": " 2565 DZ Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0751753,
+   "longitude": 4.2981857,
+   "addressDescription": " Sirtemastraat 400",
+   "city": " 2513 XX Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0807271,
+   "longitude": 4.3990173,
+   "addressDescription": " Sluiskant 29",
+   "city": " 2265 AB Leidschendam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0665832,
+   "longitude": 4.2996729,
+   "addressDescription": " Snijdersstraat 4",
+   "city": " 2525 BX Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0233698,
+   "longitude": 4.4170339,
+   "addressDescription": " Sportlaan 3",
+   "city": " 2641 AZ Pijnacker",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3837574,
+   "longitude": 4.9143113,
+   "addressDescription": " Spreeuwenpark 22HS",
+   "city": " 1021 GX Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.144985,
+   "longitude": 4.4040841,
+   "addressDescription": " Stadhoudersplein 26",
+   "city": " 2241 EB Wassenaar",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.355023,
+   "longitude": 4.9232338,
+   "addressDescription": " Steve Bikoplein 20HS",
+   "city": " 1092 GP Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1169961,
+   "longitude": 4.2863946,
+   "addressDescription": " Strandweg 187",
+   "city": " 2586 JM Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3894768,
+   "longitude": 4.8803457,
+   "addressDescription": " Suikerplein 93",
+   "city": " 1013 CJ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3607063,
+   "longitude": 4.9427728,
+   "addressDescription": " Sumatraplantsoen 11B",
+   "city": " 1095 HW Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1488643,
+   "longitude": 4.5160223,
+   "addressDescription": " Tacitusstraat 1",
+   "city": " 2314 CJ Leiden",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0816256,
+   "longitude": 4.2919709,
+   "addressDescription": " Tasmanstraat 137",
+   "city": " 2518 VM Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3654206,
+   "longitude": 4.8687722,
+   "addressDescription": " Ten Kateplein 1",
+   "city": " 1053 MH Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0683716,
+   "longitude": 4.3045155,
+   "addressDescription": " Teniersstraat 23",
+   "city": " 2526 NX Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1071156,
+   "longitude": 4.3295944,
+   "addressDescription": " Theo Mann-Bouwmeesterlaan 205",
+   "city": " 2597 Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3653007,
+   "longitude": 4.9360758,
+   "addressDescription": " Timorplein 4A",
+   "city": " 1094 CB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.37878,
+   "longitude": 4.8601437,
+   "addressDescription": " Tjerk Hiddes de Vriesstraat 11",
+   "city": " 1055 WK Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3539875,
+   "longitude": 4.9227456,
+   "addressDescription": " Smitstraat 55",
+   "city": " 1092 XR Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3582128,
+   "longitude": 4.9513853,
+   "addressDescription": " Valentijnkade 130",
+   "city": " 1095 KH Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1104642,
+   "longitude": 4.3043426,
+   "addressDescription": " Van Alkemadelaan 403",
+   "city": " 2597 BA Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3815444,
+   "longitude": 4.8706108,
+   "addressDescription": " Van Beuningenplein 32",
+   "city": " 1051 VW Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0563019,
+   "longitude": 4.5052555,
+   "addressDescription": " Van Duvenvoordepad 13",
+   "city": " 2722 CB Zoetermeer",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.347448,
+   "longitude": 4.9352593,
+   "addressDescription": " Van Het Hofflaan 43",
+   "city": " 1097 EM Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3623957,
+   "longitude": 4.8554918,
+   "addressDescription": " Van Rensselaerstraat 12",
+   "city": " 1058 XS Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0436392,
+   "longitude": 4.3287579,
+   "addressDescription": " Van Vollenhovenlaan 96",
+   "city": " 2283 LV Rijswijk",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3685139,
+   "longitude": 4.8549486,
+   "addressDescription": " Vasco Da Gamastraat 47I",
+   "city": " 1057 VJ Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1354208,
+   "longitude": 4.4759988,
+   "addressDescription": " Vlietweg 68A",
+   "city": " 2323 LE Leiden",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3918612,
+   "longitude": 4.9592149,
+   "addressDescription": " Volendammerweg 160",
+   "city": " 1024 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0609034,
+   "longitude": 4.281451,
+   "addressDescription": " Vreeswijkstraat 3",
+   "city": " 2546 AA Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3775048,
+   "longitude": 4.8536511,
+   "addressDescription": " Wachterliedplantsoen 2",
+   "city": " 1055 SB Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1618372,
+   "longitude": 4.3620126,
+   "addressDescription": " Wassenaarseslag 26",
+   "city": " 2242 PJ Wassenaar",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.175306,
+   "longitude": 4.4015137,
+   "addressDescription": " Wassenaarseweg 152",
+   "city": " 2223 LD Katwijk aan Zee",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3920662,
+   "longitude": 4.9550836,
+   "addressDescription": " Waterlandplein 254",
+   "city": " 1024 LT Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3918437,
+   "longitude": 4.9535816,
+   "addressDescription": " Werengouw 85",
+   "city": " 1024 NN Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3740848,
+   "longitude": 4.8840731,
+   "addressDescription": " Westermarkt 68",
+   "city": " 1016 Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3602818,
+   "longitude": 4.8881222,
+   "addressDescription": " Weteringschans 30",
+   "city": " 1017 SG Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.091488,
+   "longitude": 4.2572118,
+   "addressDescription": " Markensestraat 97",
+   "city": " 2583 Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0613121,
+   "longitude": 4.2209523,
+   "addressDescription": " Wijndaelerduin 25",
+   "city": " 2554 BX Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1035023,
+   "longitude": 4.4003333,
+   "addressDescription": " Wildenborch 15",
+   "city": " 2261 XG Leidschendam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0513142,
+   "longitude": 4.2356737,
+   "addressDescription": " Willem III Straat 70",
+   "city": " 2552 BS Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3545012,
+   "longitude": 4.799676,
+   "addressDescription": " Wolbrantskerkweg 245",
+   "city": " 1069 CW Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.0972746,
+   "longitude": 4.2562376,
+   "addressDescription": " Zuiderstrand 1",
+   "city": " 2583 Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.3871318,
+   "longitude": 4.9184199,
+   "addressDescription": " Zwanenplein 34",
+   "city": " 1021 CM Amsterdam",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.1161834,
+   "longitude": 4.2880846,
+   "addressDescription": " Gevers Deynootweg 155",
+   "city": " 2586 HL Den Haag",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.706288,
+   "longitude": 4.689358,
+   "addressDescription": " Oorsprongweg 1",
+   "city": " 1871 HA Schoorl",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ },
+ {
+   "latitude": 52.700757,
+   "longitude": 4.692943,
+   "addressDescription": " Duinvoetweg 7",
+   "city": " 1871 EA Schoorl",
+   "country": " Netherlands",
+   "FIELD6": "",
+   "FIELD7": ""
+ }
+
+]

@@ -1,0 +1,587 @@
+var mapMarkers = [
+
+
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos bosbaan (Startplaats)  wegwijzer 4 richting meerzicht",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos bosbaan (Startplaats)  wegwijzer 4 richting meerzicht, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos P terrein Bosbaan start looproute",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos P terrein Bosbaan start looproute, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos Grote speelweide bij brug 522 naar kanoverhuur",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos Grote speelweide bij brug 522 naar kanoverhuur, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos  Grote Vijver einde duizend meter wegstart Trimroute",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos  Grote Vijver einde duizend meter wegstart Trimroute, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos  Speelvijver ten zuiden van grote speelvijver",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos  Speelvijver ten zuiden van grote speelvijver, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos Bosrandweg  brug 561",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos Bosrandweg  brug 561, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos Bosrandweg  barberqueplaats",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos Bosrandweg  barberqueplaats, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos op heuvel  Kiosk",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos op heuvel  Kiosk, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos Speelwijde ten zuiden van kleine vijver brug 541",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos Speelwijde ten zuiden van kleine vijver brug 541, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos  nwe Meerlaan en brug 517",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos  nwe Meerlaan en brug 517, Amsterdam, Netherlands"
+        },
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos bij paddesel 9 speelweide  kleine speelwijde",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos bij paddesel 9 speelweide  kleine speelwijde, Amsterdam, Netherlands"
+        },
+        ////////////////////////////////////////////////////////////////////
+        {
+          "district": "AMSTERDAMSE BOS",
+          "addressDescription": "Amsterdamse Bos  wegwijzer 8 richting heuvel  grote vijver",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amsterdamse Bos  wegwijzer 8 richting heuvel  grote vijver, Amsterdam, Netherlands"
+        },
+        {
+          "district": "CENTRUM",
+          "addressDescription": "Plantage Middenlaan / Plantage Parklaan",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Plantage Middenlaan / Plantage Parklaan, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "Vondelpark  beeld Kerwin",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Vondelpark  beeld Kerwin, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "Sarphatiepark  2e Jan van der Heijderaat 119",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Sarphatiepark  2e Jan van der Heijderaat 119, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "Beatrixpark bij kinderbadje (diepenbrockstraat /boerenwetering)",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Beatrixpark bij kinderbadje (diepenbrockstraat /boerenwetering), Amsterdam, Netherlands"
+        },
+        {
+          "district": "WATERNET",
+          "addressDescription": "Leiduin  (vogelenzangseweg 21) (nieuw bezoekerscentrum)",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Leiduin  (vogelenzangseweg 21) (nieuw bezoekerscentrum), Amsterdam, Netherlands"
+        },
+        {
+          "district": "WATERNET",
+          "addressDescription": "Leiduin Ingang oranjekom",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Leiduin Ingang oranjekom, Amsterdam, Netherlands"
+        },
+        {
+          "district": "",
+          "addressDescription": "VONDELPARK  3",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "van eeghenfontein",
+          "FIELD6": "",
+          "info": "VONDELPARK  3, Amsterdam, Netherlands"
+        },
+        {
+          "district": "HAVEN",
+          "addressDescription": "westerdoksdijk  703",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "delta tappunt",
+          "FIELD6": "",
+          "info": "westerdoksdijk  703, Amsterdam, Netherlands"
+        },
+        {
+          "district": "CENTRUM",
+          "addressDescription": "Amstelveld  21",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amstelveld  21, Amsterdam, Netherlands"
+        },
+        {
+          "district": "CENTRUM",
+          "addressDescription": "Bickersgracht  282",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Bickersgracht  282, Amsterdam, Netherlands"
+        },
+        //////////////////////////////////////////////////////////
+
+        {
+          "district": "CENTRUM",
+          "addressDescription": "1e Marnixplantsoen  Marnixkade 31",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "1e Marnixplantsoen  Marnixkade 31, Amsterdam, Netherlands"
+        },
+        ////////////////////////////////////////////////
+        {
+          "district": "CENTRUM",
+          "addressDescription": "Egelantiersstraat  72/Tuinplein",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Egelantiersstraat  72/Tuinplein, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Botteskerksingel  17",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Botteskerksingel  17, Amsterdam, Netherlands"
+        },
+      //  {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Oosever  1",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "delta tappunt",
+          "FIELD6": "",
+          "info": "Oosever  1, Amsterdam, Netherlands"
+        },
+
+       {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Wiardi Beckmaraat  23",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "delta tappunt",
+          "FIELD6": "",
+          "info": "Wiardi Beckmaraat  23, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Gerbrandypark ng  tennis velden",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "delta tappunt",
+          "FIELD6": "",
+          "info": "Gerbrandypark ng  tennis velden, Amsterdam, Netherlands"
+        },
+        ///////////////////////////////////////
+
+       {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Rembrandtpartk  Postjeskade 221",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "delta tappunt",
+          "FIELD6": "",
+          "info": "Rembrandtpartk  Postjeskade 221, Amsterdam, Netherlands"
+        },
+
+       {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Tussenmeer Hoekenesgracht",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Tussenmeer / Hoekenesgracht, Amsterdam, Netherlands"
+        },
+        ////////////////////////////////////////////
+
+      //  {
+          "district": "NIEUW-WEST",
+          "addressDescription": "Tussenmeer Wolbrantskerkweg  245",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Tussenmeer / Wolbrantskerkweg  245, Amsterdam, Netherlands"
+        },
+
+      //  {
+          "district": "NOORD",
+          "addressDescription": "Breehorraat 137",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Breehorraat 137, Amsterdam, Netherlands"
+        },
+
+        ///////////////////////////////////
+
+        {
+          "district": "OOST",
+          "addressDescription": "C J K van Aalstplein  101 (RIETcountryEN)",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "C J K van Aalstplein  101 (RIETcountryEN), Amsterdam, Netherlands"
+        },
+
+        //////////////////////////
+
+        {
+          "district": "OOST",
+          "addressDescription": "Oosterpark  damtafels",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Oosterpark  damtafels, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Polaneraat 3",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Polaneraat 3, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Zaaraat  110",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Zaaraat  110, Amsterdam, Netherlands"
+        },
+        //////////////////////////////////////
+        {
+          "district": "WEST",
+          "addressDescription": "1e c. Huygeraat 15",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "1e c. Huygeraat 15, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Jan van Galeraat   31",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Jan van Galeraat   31, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Westzaaraat  45  Speelplaats",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Westzaaraat  45  Speelplaats, Amsterdam, Netherlands"
+        },
+
+        /////////////////////////////
+        {
+          "district": "WEST",
+          "addressDescription": "Corantijraat 2",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Corantijraat 2, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "WEST",
+          "addressDescription": "Geuzeraat 58",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Geuzeraat 58, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "WEST",
+          "addressDescription": "Jan Maijeraat  13",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Jan Maijeraat  13, Amsterdam, Netherlands"
+        },
+
+        ////////////////////////////////////
+
+        //{
+          "district": "WEST",
+          "addressDescription": "van Kingsbergeraat 58",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "delta tappunt",
+          "FIELD6": "",
+          "info": "van Kingsbergeraat 58, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "WEST",
+          "addressDescription": "2e Nassaustraat Achter 10a Binnenplaats Tuin",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "2e Nassaustraat Achter 10a Binnenplaats Tuin, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Mercarplein  Kiosk Westzijde",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Mercarplein  Kiosk Westzijde, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "2e coantijn Huijgeraat  30",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "2e coantijn Huijgeraat  30, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Jan van schaffelaarplantsoen t.h.v. leeuwendalersweg hoek s. semeyr",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Jan van schaffelaarplantsoen t.h.v. leeuwendalersweg hoek s. semeyr, Amsterdam, Netherlands"
+        },
+        ////////////////////////////////////////////////
+      {
+          "district": "WEST",
+          "addressDescription": "Mercarplein  openbaar ilet  (oostzijde)",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Mercarplein  openbaar ilet  (oostzijde), Amsterdam, Netherlands"
+        },
+        {
+          "district": "WEST",
+          "addressDescription": "Westerpark ingang districtkanor langs Haarlemmertrekvaart",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Westerpark ingang districtkanor langs Haarlemmertrekvaart, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "ZUID",
+          "addressDescription": "Ceintuurbaan 245  / Servaes Nautstraat",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Ceintuurbaan 245  / Servaes Nautstraat, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "Hobbemakade   95 / Gerard Terborghstraat",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Hobbemakade   95 / Gerard Terborghstraat, Amsterdam, Netherlands"
+        },
+       {
+          "district": "ZUID",
+          "addressDescription": "Holtmeulen 1/3 Van Boshuizeraat",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Holtmeulen 1/3 Van Boshuizeraat, Amsterdam, Netherlands"
+        },
+        //////////////////////////////////////////////////
+        {
+          "district": "ZUID",
+          "addressDescription": "Maarten Luther Kingpark   kabouterhuis Amsteldijk",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Maarten Luther Kingpark   kabouterhuis Amsteldijk, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "Museumplein bij kiosk en fontein",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Museumplein bij kiosk en fontein, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "Museumplein bij skatebaan",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Museumplein bij skatebaan, Amsterdam, Netherlands"
+        },
+        {
+          "district": "ZUID",
+          "addressDescription": "President Kennedyplantsoen  66 Alblasstraat",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "President Kennedyplantsoen  66 / Alblasstraat, Amsterdam, Netherlands"
+        },
+        
+        {
+          "district": "ZUID",
+          "addressDescription": "Vondelpark  1 ingang cityhouderskade",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Vondelpark  1 ingang cityhouderskade, Amsterdam, Netherlands"
+        },
+
+        {
+          "district": "WATERNET",
+          "addressDescription": "Amstelveenseweg 598 A Sectiepost",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Amstelveenseweg 598 A Sectiepost, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WATERNET",
+          "addressDescription": "Leiduin Trimbaan",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Leiduin Trimbaan, Amsterdam, Netherlands"
+        },
+        {
+          "district": "WATERNET",
+          "addressDescription": "Weesperkarpel ( de kantine)Sectiepost",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "happertje",
+          "FIELD6": "",
+          "info": "Weesperkarpel ( de kantine)Sectiepost, Amsterdam, Netherlands"
+        },
+        {
+          "district": "",
+          "addressDescription": "Drinkpaal FLEVOPARK zit sinds 15-07-2011 achter put",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "type": "special",
+          "FIELD6": "",
+          "info": "Drinkpaal FLEVOPARK zit sinds 15-07-2011 achter put, Amsterdam, Netherlands"
+        }
+
+  ]
